@@ -1,0 +1,26 @@
+.storys{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 55px;
+    margin: 10px;
+}
+
+.story img{
+    width: 60px;
+    border-radius: 50%;
+    border: #3D70AC 3px solid;
+}
+
+.story span{
+    font-size: 10px;
+}
